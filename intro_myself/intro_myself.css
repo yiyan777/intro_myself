@@ -2,6 +2,7 @@ span:hover{
     color:	#0000FF;
     font-weight: bold;
     font-size: 22px;
+    text-decoration:underline;
 }
 a{
     text-decoration: none;
