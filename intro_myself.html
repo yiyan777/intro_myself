@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王繹儼的自我介紹</title>
+    <link rel="stylesheet" type="text/css" href="intro_myself.css"/>
+</head>
+<body>
+        <div class="title">王繹儼的WeHelp申請網頁</div>
+        <nav>
+            <div class="item1"><a href="#1">個人簡介與動機</a></div>
+            <div class="item2"><a href="#2">相關學習與作品</a></div>
+            <div class="item3"><a href="#3">學習時間安排</a></div>
+            <div class="item4"><a href="#4">投入與回報</a></div>
+            <div class="item5"><a href="#5">情緒管理</a></div>
+            <div class="item6"><a href="#6">開發技術分享</a></div>
+            <div class="item7"><a href="#7">自我與社會的連結</a></div>
+        </nav>
+    <ol>
+        <li id="1">個人簡介與申請動機。</li>
+            <div class="content">彭彭老師您好，我是王繹儼。我是一個臺北人，出生於1993年，2016年畢業於國立政治大學教育系。</br>
+            我目前的工作是一名國中老師，教導國中學生歷史的相關知識，教育系畢業後從事教職已滿六年。</br>
+            我是在2022年的時候，起心動念有了轉職的想法。當年我跟著線上教學的課程(我阿嬤都會-GrandmaCan小白老師)自學python，
+            做了幾個有趣的小專案。接著，我在2023年開始觀看彭彭老師的前端教學影片，
+            前端三劍客與前端框架Vue的課程(有解鎖會員XD)已經觀看完畢。</br>
+            這段期間我感受到的困境是，作為自學生，我沒有一個明確的方向引導自己，來瞭解階段中的學習目標是什麼，
+            甚至是幫助自己建置屬於自己的作品。</br>
+            今年，有幸在因緣際會之中，瞭解了彭彭老師的WeHelp計畫。<br>
+            我的前端技能都是跟著彭彭老師的影片學習的，想讓自己繼續跟著老師學習下去，轉職成為網站工程師。</br>
+            彭彭老師錄製的課程影片講解都非常清楚，確實就像老師您說過的，對於教導初學者這件事情，您有很多的心得與體會，我想我也是親眼見證到了。</br>
+            <span>此外，老師經常在半夜時分錄製教學影片，不僅讓我深感佩服，也讓我對老師總是全力以赴的教學態度敬佩不已！</span>
+            </div>
+                
+            </div>
+        <li id="2">曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。</li>
+        <div class="content">我在2022年開始學習python的時候，有試著寫過一些簡單的小遊戲類型的專案，例如與電腦互動的猜數字遊戲。</br>
+            這個遊戲會給予玩家5次猜出正確數字的機會，請玩家猜測電腦指定的一個1~100以內的數字。</br>
+            程式碼如下：
+        </div>
+        <div class="frame">
+            <div class="left">
+                print("歡迎來玩猜數字遊戲~\n" </br>
+                "答案是1~100隨機的一個整數(5次內猜對即為獲勝)") </br></br>
+                import random</br>
+                ans_computer = random.randint(1,100)</br></br>
+
+                for i in range(1,6):</br>
+                &emsp;print(f"★第{i}次猜測★")   </br>
+                &emsp;ans_user = input("請輸入猜測的數字:")</br></br>
+
+                &emsp;if i==5 and ans_user.isdigit()==False:</br>
+                &emsp;&emsp;print("請輸入整數。已超過猜測次數，你輸了~")</br></br>
+
+                &emsp;if ans_user.isdigit() == False:</br>
+                &emsp;&emsp;print("【請輸入整數的數字】\n")</br>
+                &emsp;&emsp;continue</br>
+                &emsp;# 將使用者的字串輸入轉成int</br>
+                &emsp;ans_user = int(ans_user)</br></br>
+
+                &emsp;if i == 5 and ans_user != ans_computer:</br>
+                &emsp;&emsp;print("\n你輸了～繼續加油吧～")</br>
+                &emsp;&emsp;print(f"答案是{ans_computer}")</br>
+                &emsp;&emsp;break</br></br>
+
+                &emsp;if ans_user == ans_computer:</br>
+                &emsp;&emsp;print("恭喜你答對囉～")</br>
+                &emsp;&emsp;break</br></br>
+                &emsp;elif ans_user < ans_computer:</br>
+                &emsp;&emsp;print("提示：再猜大一點\n")</br>
+                &emsp;elif ans_user > ans_computer:</br>
+                &emsp;&emsp;print("提示：再猜小一點\n")</br>
+            </div>
+            <video class="right" src="guess-num-revised.mov" controls height="440"></video>
+        </div>
+        
+        <li id="3">如果參與這個訓練，會怎麼安排學習時間？</li>
+            <div class="content">               
+                我的下班時間通常是16:00或是17:00，週三是12:00下班，週五是14:00下班。</br>
+                我預計利用這些下班後的時間以及週六和週日進行老師交代的任務的學習。</br>
+                我可以參加每周一早上10:00的線上任務會議。
+                <div class="training">
+                    《彭彭老師階段式訓練計劃時間軸》</br>
+                    第一階段訓練：2025/01/06 (一) ~ 2025/03/09 (日) </br>
+                    第二階段訓練：2025/03/10 (一) ~ 2025/05/04 (日) </br>
+                    第三階段訓練：2025/05/05 (一) ~ 2025/07/13 (日) </br>
+                </div>
+            </div>
+        <li id="4">軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？</li>
+            <div class="content">
+                跟隨彭彭老師的WeHelp計畫，我選擇投入的領域是網站開發。
+                如同老師在招生說明會所說的，網站開發的需求在現代依然持續被人們所需要，我的想法也是如此，
+                因為我覺得，處在這個時代的人們，每天的生活都與資訊科技的應用脫離不了關係，只是強度的大小每個人有所不同。
+            </div>
+        <li id="5">請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</li>
+            <div class="content">
+                我在大學的時候有參加排球隊，參與過許多比賽。對我來說，在球場上發生失誤，滿容易讓我自己產生不好的心情。
+                如何處理這個負面情緒的方法是，我總是會告訴自己：「不要被剛剛那一球影響，好好的準備面對下一球，要總是看向未來，不要被過去的失誤影響‧‧‧‧‧‧。」慢慢地心情就比較可以穩住，而心態只要能保持穩定，自身的實力就可以發揮出來。
+            </div>
+        <li id="6">關於這份申請網頁，分享一個開發時的技術心得。</li>
+            <div class="content">
+                在回答申請網頁的第二題時，我想要把程式碼與專案執行後的成果畫面並排在一起，
+                我記得去年看過彭彭老師的教學影片，彭彭老師教導使用flex來達成並排的技巧，
+                可是細節我有些忘記了，於是我重新再看一次老師的教學影片，順利地將排版完成了!</br>
+                核心觀念就是，如果想要將「項目」並排，就要在他們的上一層，也就是「容器」，把display的設定設為flex。
+            </div>
+        <li id="7">如何看待自身工作和整個社會群體的連結關係?</li>
+            <div class="content">
+                這一個題目的範圍相當廣大，也是頗具有哲學性質的議題。<br>
+                我目前的工作是教育工作者，對我來說，「教育」這件事情，對下一代產生的影響是相當深遠的。<br>
+                古人有云：「十年樹木，百年樹人。」確實，培育人才是長久之計，一個正面的引導及啟發，能夠影響學生的未來，甚至一生。<br>
+                目前的我是在校園場域影響學生，希望在未來，我也可以透過持續努力，在資訊科技的領域盡一份自己的心力。</br>
+            </div>
+    </ol>
+</body>
+</html>
